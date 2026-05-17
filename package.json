@@ -1,0 +1,14 @@
+{
+  "name": "omnicortex-agents",
+  "version": "0.1.0",
+  "description": "Agents simples et templates de prompts pour Omnicortex",
+  "main": "agents/simple_agent.js",
+  "scripts": {
+    "start": "node agents/simple_agent.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "googleapis": "^121.0.0",
+    "openai": "^4.0.0"
+  }
+}
